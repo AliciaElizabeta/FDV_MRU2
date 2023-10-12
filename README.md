@@ -11,3 +11,10 @@ para luego hacer una translación.
 Para hacer una rotación más fluida que el LookAT() se emplea en el script llamado "SlerpAndForward" el método Quaternion.Slerp()
 
 ![GifResultante](gif/P2.gif)
+
+## Punto 3: Creación de un circuito
+Para hacer el circuito se ha creado un objeto que representa un circuito con varios componentes hijos etiquetados como "waypoints" el script recopila los componentes hijos, evalua sus tags y así nuestro objeto puede moverse por el circuito siguiendo los diferentes transform de los waypoints.
+
+![GifResultante](gif/P3.gif)
+
+## Punto 4: Uso de los circuitos de Unity
